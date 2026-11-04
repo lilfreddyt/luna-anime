@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: pink;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+}
+
+#fric {
+    width: 50px;
+    height: auto;
+}

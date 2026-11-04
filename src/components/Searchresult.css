@@ -1,0 +1,34 @@
+.search-result{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    width:600px;
+    height:50px;
+    border: 1px solid black;
+    border-top: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.type {
+    place-self: center;
+}
+
+.result-img {
+    place-self: center;
+    width: 30px;
+    height: 40px;
+}
+
+.view-more {
+    background-color: white;
+    border: 1px solid black;
+    border-top: 0px
+}
